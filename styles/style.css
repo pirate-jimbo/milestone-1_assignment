@@ -1,9 +1,90 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900 */
 
-.azeret-mono {
+.azeret-mono{
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
 }
+/* Shared Styles */
+.txt-blk-1{
+  font-weight: 800;
+  font-size: 48px;
+  color: rgba(13, 19, 33, 1);
+}
+.txt-blk-2{
+  font-weight: 800;
+  font-size: 32px;
+  color: rgba(13, 19, 33, 1);
+}
+.txt-blk-3{
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(13, 19, 33, 0.7);
+}
+.txt-blk-4{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(13, 19, 33, 1);
+}
+
+
+/* Nav Styles */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 150px 36px;
+}
+.nav-title{
+  font-weight: 800;
+  font-size: 28px;
+
+}
+nav ul li{
+  list-style: none;
+}
+.btn-nav{
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(13, 19, 33, 1);
+  border-radius: 8px;
+  padding: 17px 24px;
+  background-color: white;
+}
+
+/* Banner Styles */
+.banner-bg1{
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.test{
+  position: absolute;
+  bottom: 500px  /* right: 600px;
+  left: 750px; */
+}
+
+.banner-secondary{
+  position: absolute;
+  bottom: 200px;
+  right: 221px;
+  left: 221px;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.banner-third{
+  position: absolute;
+  bottom: 120px;
+  right: 294px;
+  left: 294px;
+  padding: 5px;
+}
+
+
+
