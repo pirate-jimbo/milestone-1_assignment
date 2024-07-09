@@ -65,8 +65,8 @@ nav ul li{
 .test{
   position: absolute;
   bottom: 500px;
-  left: 600px;
-  right: 600px;
+  left: 830px;
+  right: 370px;
 }
 
 .banner-secondary{
@@ -82,9 +82,22 @@ nav ul li{
 .banner-third{
   position: absolute;
 
-  bottom: 80px;
+  bottom: 100px;
   right: 380px;
   left: 450px;
+}
+.button-banner{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(13, 19, 33, 1);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 21px 24px;
+}
+.banner-btn{
+  position: absolute;
+  bottom: 0px;
+  left: 850px;
 }
 
 
