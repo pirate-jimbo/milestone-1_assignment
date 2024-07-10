@@ -100,5 +100,56 @@ nav ul li{
   left: 850px;
 }
 
+/* Main Styles */
+.development-section{
+  text-align: center;
+  margin: 75px 150px 90px 150px;
+  padding: 70px;
+  background-color: rgba(13, 19, 33, 0.02);
+}
+.section-main1{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.section1{
+  text-align: left;
+  margin: 50px 100px 50px 0px;
+}
+.section2{
+  margin-right: 80px;
+}
+
+.section-main2{
+  display: flex;
+  margin: 50px;
+  padding: 70px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.section4{
+  text-align: left;
+  margin: 10px 50px 50px 100px;
+}
+
+.section-main3{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.section5{
+  text-align: left;
+  margin: 50px 100px 50px 0px;
+}
+.section6{
+  margin-right: 80px;
+}
+
+
 
 
