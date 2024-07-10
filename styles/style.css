@@ -29,6 +29,15 @@
   color: rgba(13, 19, 33, 1);
 }
 
+.btn-learn{
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(13, 19, 33, 1);
+  background-color: white;
+  padding: 12px 20px;
+
+}
+
 
 /* Nav Styles */
 nav{
@@ -106,6 +115,7 @@ nav ul li{
   margin: 75px 150px 90px 150px;
   padding: 70px;
   background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
 }
 .section-main1{
   display: flex;
@@ -113,6 +123,7 @@ nav ul li{
   margin: 50px;
   padding: 30px;
   background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
 }
 
 .section1{
@@ -128,6 +139,7 @@ nav ul li{
   margin: 50px;
   padding: 70px;
   background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
 }
 .section4{
   text-align: left;
@@ -140,6 +152,7 @@ nav ul li{
   margin: 50px;
   padding: 30px;
   background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
 }
 
 .section5{
@@ -148,6 +161,23 @@ nav ul li{
 }
 .section6{
   margin-right: 80px;
+}
+
+.video-section{
+  text-align: center;
+  margin: 75px 150px 90px 150px;
+  padding: 70px;
+  border-radius: 16px;
+}
+.vsection{
+  border-radius: 16px;
+  overflow: hidden;
+  z-index: 1;
+  height: 650px;
+  width: 1200px;
+  margin: 75px;
+  padding: 30px;
+  background-color: rgba(13, 19, 33, 0.02);
 }
 
 
